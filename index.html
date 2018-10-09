@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Venturer</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+    <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<nav>
+    <div class="nav-wrapper blue">
+        <a href="#" class="brand-logo">The Venturer</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="carousel">
+    <a class="carousel-item" href="https://en.wikipedia.org/wiki/Summer"><img src="1.jpg"></a>
+    <a class="carousel-item" href="https://en.wikipedia.org/wiki/Winter"><img src="2.jpg"></a>
+    <a class="carousel-item" href="https://en.wikipedia.org/wiki/Winter"><img src="3.jpg"></a>
+    <a class="carousel-item" href="https://en.wikipedia.org/wiki/Summer"><img src="4.jpg"></a>
+    <a class="carousel-item" href="https://en.wikipedia.org/wiki/Autumn"><img src="5.jpg"></a>
+    <a class="carousel-item" href="https://en.wikipedia.org/wiki/Summer"><img src="6.jpg"></a>
+    <a class="carousel-item" href="https://en.wikipedia.org/wiki/Autumn"><img src="7.jpg"></a>
+</div>
+<script>
+    $('.carousel').carousel({
+        dist: 0,
+        padding: 10,
+    });
+</script>
+<div class="row">
+    <div class="col s12 m4 l3">
+        <h3 style="font-family:'Do Hyeon'"> About </h3>
+        <img class="materialboxed" width="245" src="office.jpg">
+        <p> The best part about travelling is<br> the thrill that comes along with it!</p>
+        <br>
+        <br>
+        <h3 style="font-family:'Jua'"> Bookings </h3>
+        <p> A few Suggestions for the travels that <br>
+            you may undertake </p>
+        <ul>
+            <li><a class="waves-effect waves-teal btn-flat "
+                   href="https://www.google.co.in/destination/compare?q=best%20places%20to%20visit%20in%20india&sa=X&tcfs=GAE&site=search&output=search&dest_mid=%2Fm%2F03rk0&dest_mid=%2Fm%2F03rk0"
+                   target="_blank"> National </a></li>
+            <li><a class="waves-effect waves-teal btn-flat"
+                   href="http://traveltriangle.com/blog/budget-international-trips/" target="_blank">Interational </a>
+            </li>
+        </ul>
+        <a class="waves-effect waves-light btn" href="logout.php"><i class="material-icons left">power_settings_new</i>Logout</a>
+    </div>
+    <div class="col s12 m8 l9 ">
+        <h3 style="font-family:'Jua'"> Chennai </h3>
+        <h5 style="font-family: 'Jua'"> 5th August 2015</h5>
+        <img src="chennai.jpg" style="width: 350px; height: 250px">
+        <p style="font-size: 12px"> A debrie on the beach </p>
+        <p>Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu. The city is home
+            to Fort St. George, built in 1644 and now a museum showcasing the city's roots as a British military
+            garrison and East India Company trading outpost, when it was called Madras.
+            <a href="https://en.wikipedia.org/wiki/Chennai" target="_blank" style="text-decoration: none">read more</a></p>
+
+        <h3 style="font-family:'Jua'"> Italy </h3>
+        <h5 style="font-family: 'Jua'"> 3th feburary 2016</h5>
+        <img src="italy.jpg" style="width: 350px; height: 250px">
+        <p style="font-size: 12px"> Colosseum </p>
+        <p>taly, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and
+            cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major
+            cities include Florence, with Renaissance masterpieces such as Michelangelo's "David" and Brunelleschi's
+            Duomo; Venice, the city of canals; and Milan, Italy's fashion capital.....<a
+                    href="https://en.wikipedia.org/wiki/Italy" target="_blank" ="text-decoration: none">read more</a>
+        </p>
+    </div>
+</div>
+
+<footer class="page-footer blue">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">With Love</h5>
+                <p class="grey-text text-lighten-4">This website is made with love and care </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Follow us on </h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/login/">Facebook</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/login?lang=en">Twitter</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            &copy Design by TEJA
+        </div>
+    </div>
+</footer>
+</body>
+</html>
